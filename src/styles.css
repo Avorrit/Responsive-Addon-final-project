@@ -127,5 +127,12 @@ footer a, p, ul{
         font-size: 1.6rem;
     }
 
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+
 
 }
