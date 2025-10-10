@@ -2,6 +2,7 @@
     --font-family: "Manrope";
     --font-weight-title: 800;
     --font-weight-body: 400;
+    --base-font-size: 1rem;
 }
 
 body {
@@ -150,10 +151,6 @@ section.secondary {
     background: rgba(106, 132, 205, 0.25);
 }
 
-section.secondary h3, h2 {
-    padding: 16px;
-}
-
 .card-container {
     padding-top: 16px;
 }
@@ -174,6 +171,10 @@ section.secondary h3, h2 {
 .card-header {
     padding: 0;
     padding-block: 32px;
+}
+
+.card-header h2, h3 {
+    padding: 16px;
 }
 
 .card-body {
@@ -228,6 +229,10 @@ footer a, p, ul{
         font-size: 3rem;
     }
 
+    main p {
+        font-size: 1rem;
+    }
+
     .upper-text-container h2 {
         font-size: 1.2rem;
     }
@@ -239,14 +244,40 @@ footer a, p, ul{
     .grid-3-columns {
         display: flex;
         flex-direction: column;
-        gap: 32px;
-        padding: 32px;
+        gap: 16px;
+        padding: 16px;
     }
 
     .grid-2-columns {
-        padding: 32px;
+        padding: 16px;
     }
 
+    .card {
+        padding: 16px;
+    }
+
+    .card-header {
+        padding-inline: 0;
+        padding-block: 16px;
+    }
+
+    .card-header h2, h3 {
+        padding: 8px;
+    }
+
+
+    .card-header h2 {
+        font-size: 0.7rem;
+        letter-spacing: 3px;
+    }
+
+    .card-header h3 {
+        font-size: 1.7rem;
+    }
+
+    .gmaps-embed {
+        width: 100%;
+    }
 
 }
 
